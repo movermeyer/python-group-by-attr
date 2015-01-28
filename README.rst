@@ -1,4 +1,4 @@
-Group_by_attr |Version| |Build| |Coverage| |Health|
+group-by-attr |Version| |Build| |Coverage| |Health|
 ===================================================================
 
 |Compatibility| |Implementations| |Format| |Downloads|
