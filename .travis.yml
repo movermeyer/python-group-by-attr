@@ -13,8 +13,7 @@ install:
 - pip install coveralls
 - python setup.py develop
 before_script: flake8 setup.py "group_by_attr"
-script: nosetests --with-doctest --doctest-options="+NORMALIZE_WHITESPACE" --with-coverage --cover-tests --cover-inclusive --cover-package="group_by_attr"
-  "group_by_attr"
+script: nosetests --with-doctest --doctest-options="+NORMALIZE_WHITESPACE" --with-coverage --cover-tests --cover-inclusive --cover-package="group_by_attr" "group_by_attr"
 after_success: coveralls
 deploy:
   provider: pypi
