@@ -20,7 +20,7 @@ Installation:
 Example
 -------
 
-Let's say you want to group some "Struct" instances together.
+Let's say you want to group some ``namedtuple`` instances together.
 
 .. code:: python
 
@@ -32,7 +32,7 @@ Let's say you want to group some "Struct" instances together.
     ...     Struct(x=1, y=2, z=2),
     ...     Struct(x=1, y=1, z=3))
 
-If we were to group these instances by the 'x' attribute, we should
+If we were to group these instances by the ``x`` attribute, we should
 expect a single group containing all three items:
 
 .. code:: python
@@ -42,7 +42,7 @@ expect a single group containing all three items:
          Struct(x=1, y=2, z=2),
          Struct(x=1, y=1, z=3))}
 
-If, instead, we were to group by 'y', we should expect a different
+If, instead, we were to group by ``y``, we should expect a different
 grouping:
 
 .. code:: python
@@ -52,7 +52,7 @@ grouping:
          Struct(x=1, y=1, z=3)),
      2: (Struct(x=1, y=2, z=2),)}
 
-Finally, grouping by 'z' will result in three separate groups:
+Finally, grouping by ``z`` will result in three separate groups:
 
 .. code:: python
 
