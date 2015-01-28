@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='group-by-attr',
-    version='0.0.1',
+    version='1.0.0',
     packages=('group_by_attr',),
     url='https://github.com/themattrix/python-group-by-attr',
     license='MIT',
