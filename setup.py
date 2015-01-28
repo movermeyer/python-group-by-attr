@@ -1,19 +1,21 @@
 from setuptools import setup
 
 setup(
-    name='{{ package_name }}',
-    version='{{ package_version }}',
-    packages=('{{ package_name }}',),
-    url='https://github.com/{{ github_user }}/{{ repo_name }}',
+    name='group-by-attr',
+    version='0.0.1',
+    packages=('group_by_attr',),
+    url='https://github.com/themattrix/python-group-by-attr',
     license='MIT',
-    author='{{ author_name }}',
-    author_email='{{ author_email }}',
-    install_requires=(
-        {{ install_requires|pytuple }}),
+    author='Matthew Tardiff',
+    author_email='mattrix@gmail.com',
+    install_requires=(),
     tests_require=(
-        {{ tests_require|pytuple }}),
+        'coverage',
+        'flake8',
+        'nose',
+        'pyflakes',),
     description=(
-        {{ short_description|pystring }}),
+        'Group items in a sequence by the value of a shared attribute.'),
     classifiers=(
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 2',

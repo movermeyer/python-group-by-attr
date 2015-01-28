@@ -1,0 +1,29 @@
+sudo: false
+language: python
+python:
+- 2.6
+- 2.7
+- 3.2
+- 3.3
+- 3.4
+- pypy
+- pypy3
+install:
+- pip install -r requirements.txt
+- pip install coveralls
+- python setup.py develop
+before_script: flake8 setup.py "group_by_attr"
+script: nosetests --with-doctest --with-coverage --cover-tests --cover-inclusive --cover-package="group_by_attr"
+  "group_by_attr"
+after_success: coveralls
+deploy:
+  provider: pypi
+  user: themattrix
+  distributions: sdist bdist_wheel
+  on:
+    python: 2.7
+    tags: true
+    all_branches: true
+    repo: themattrix/python-group-by-attr
+  password:
+    secure: goTgT2Z9Ly9mxRlMyvXcOrlvfq9tnDKPpIsujr1HZ2XfYqVzyRLsCBlpGazsh4rZtuv3nIhPpItsKhNox6a7Z0toxrn96a+FNAL1kbed1jLobK5FS0Xsj2yFTO2dHZB64O1e0+sSzdhHEZ4rqYaJRvq9oCNJsgKotRzEVUjYKGQ=
