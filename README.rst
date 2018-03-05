@@ -85,13 +85,13 @@ For example, you could group dictionaries:
    :target: https://coveralls.io/r/themattrix/python-group-by-attr
 .. |Health| image:: https://landscape.io/github/themattrix/python-group-by-attr/master/landscape.svg
    :target: https://landscape.io/github/themattrix/python-group-by-attr/master
-.. |Version| image:: https://pypip.in/version/group_by_attr/badge.svg?text=version
+.. |Version| image:: https://img.shields.io/pypi/v/group_by_attr.svg?label=version
     :target: https://pypi.python.org/pypi/group-by-attr
-.. |Downloads| image:: https://pypip.in/download/group_by_attr/badge.svg
+.. |Downloads| image:: https://img.shields.io/pypi/dm/group_by_attr.svg
     :target: https://pypi.python.org/pypi/group-by-attr
-.. |Compatibility| image:: https://pypip.in/py_versions/group_by_attr/badge.svg
+.. |Compatibility| image:: https://img.shields.io/pypi/pyversions/group_by_attr.svg
     :target: https://pypi.python.org/pypi/group-by-attr
-.. |Implementations| image:: https://pypip.in/implementation/group_by_attr/badge.svg
+.. |Implementations| image:: https://img.shields.io/pypi/implementation/group_by_attr.svg
     :target: https://pypi.python.org/pypi/group-by-attr
-.. |Format| image:: https://pypip.in/format/group_by_attr/badge.svg
+.. |Format| image:: https://img.shields.io/pypi/format/group_by_attr.svg
     :target: https://pypi.python.org/pypi/group-by-attr
